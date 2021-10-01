@@ -1,0 +1,38 @@
+body{
+    background-color: #F5F5F5;
+}
+
+.header{
+    color: #018786;
+}
+
+li, p , h3{ 
+    color:#018786;
+    font-family: Montserrat, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.me {
+    font-size: 25px;
+    border: 2px solid #546E7A;
+    border-radius: 5px;
+}
+
+
+a { 
+    text-decoration: none;
+    color:#018786;
+}
+
+@media (min-width: 1024px)  { 
+    body {
+        background-color: white;
+    }
+    p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
